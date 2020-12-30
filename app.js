@@ -55,6 +55,9 @@ button.addEventListener('click', () => {
     }else{
         sel.value = optSec;
         selSec.value = opt;
+
+        first.textContent = optSec;
+        second.textContent = opt;
     }
 })
 
