@@ -66,7 +66,7 @@ function getData(opt,optSec){
 
     http.get(opt)
     .then(resolve => {
-        console.log(resolve)
+        
         for(let x in resolve.rates){
             if(optSec === x){
                 let res = resolve.rates[x] * firstInput.value;
